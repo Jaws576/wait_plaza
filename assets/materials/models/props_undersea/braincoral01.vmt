@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 					"models/props_undersea/braincoral01"
+	"$bumpmap" 						"models/props_undersea/braincoral01_nrm"
+
+	
+}

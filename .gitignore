@@ -1,0 +1,6 @@
+*.bsp
+*.bsp.unpacked
+*.vmx
+*.prt
+*.log
+instances/*.vmx

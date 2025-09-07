@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 					"models/props_undersea/stickcoral01"
+	"$bumpmap" 						"models/props_undersea/stickcoral01_nrm"
+	
+}

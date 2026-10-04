@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8868"
-	"mapversion" "8"
+	"editorbuild" "8872"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites_2fort"
@@ -2254,18 +2254,24 @@ entity
 entity
 {
 	"id" "78"
-	"classname" "item_bonuspack"
+	"classname" "item_healthammokit"
+	"ammo_size" "-1"
 	"angles" "0 0 0"
+	"armor_size" "2"
+	"AutoMaterialize" "0"
+	"fademindist" "-1"
+	"health_size" "-1"
 	"model" "models/items/currencypack_medium.mdl"
+	"pickup_sound" "MVM.MoneyPickup"
 	connections
 	{
-		"OnPickup" "civvie_shopkeep,SetAnimation,Stand_LOSER,0,-1"
-		"OnPickup" "civvie_shopkeep_sound,PlaySound,,0,-1"
+		"OnPlayerTouch" "civvie_shopkeepSetAnimationStand_LOSER0-1"
+		"OnPlayerTouch" "civvie_shopkeep_soundPlaySound0-1"
 	}
 	"origin" "-104.04 128 48"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 500]"

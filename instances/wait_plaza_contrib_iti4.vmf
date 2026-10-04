@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8868"
-	"mapversion" "14"
+	"editorbuild" "8872"
+	"mapversion" "15"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,12 +89,14 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "14"
+	"mapversion" "15"
 	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_tf2_04"
+	"vscriptlanguage_client" "-2"
 	solid
 	{
 		"id" "2"
@@ -16598,8 +16600,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2832.88 1336.49 1094.67]"
-		"look" "[3545.1 1412.42 -1789.28]"
+		"position" "[-2114.01 1196.52 399.501]"
+		"look" "[4280.9 -1527.13 1229.08]"
 	}
 }
 cordons

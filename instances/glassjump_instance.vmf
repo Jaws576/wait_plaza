@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
+	"editorbuild" "8872"
 	"mapversion" "330"
 	"formatversion" "100"
 	"prefab" "0"
@@ -13833,7 +13833,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_0a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_0aBreak0-1"
 	}
 	solid
 	{
@@ -13990,10 +13990,10 @@ entity
 	"targetname" "sg_glass_case_0"
 	connections
 	{
-		"OnCase01" "sg_glass_0a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_0b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_0a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_0b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_0a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_0b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_0a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_0b_breaktriggerEnable0-1"
 	}
 	"origin" "9216 10064 544"
 	editor
@@ -14016,7 +14016,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_0b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_0bBreak0-1"
 	}
 	solid
 	{
@@ -14464,7 +14464,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_1a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_1aBreak0-1"
 	}
 	solid
 	{
@@ -14621,10 +14621,10 @@ entity
 	"targetname" "sg_glass_case_1"
 	connections
 	{
-		"OnCase01" "sg_glass_1a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_1b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_1a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_1b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_1a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_1b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_1a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_1b_breaktriggerEnable0-1"
 	}
 	"origin" "9408 10064 544"
 	editor
@@ -14647,7 +14647,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_1b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_1bBreak0-1"
 	}
 	solid
 	{
@@ -15095,7 +15095,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_2a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_2aBreak0-1"
 	}
 	solid
 	{
@@ -15252,10 +15252,10 @@ entity
 	"targetname" "sg_glass_case_2"
 	connections
 	{
-		"OnCase01" "sg_glass_2a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_2b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_2a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_2b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_2a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_2b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_2a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_2b_breaktriggerEnable0-1"
 	}
 	"origin" "9600 10064 544"
 	editor
@@ -15278,7 +15278,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_2b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_2bBreak0-1"
 	}
 	solid
 	{
@@ -16334,7 +16334,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_4a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_4aBreak0-1"
 	}
 	solid
 	{
@@ -16488,11 +16488,11 @@ entity
 	"targetname" "sg_start_glass_11_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_11b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_11,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_11_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_10_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_11a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_11bKill0-1"
+		"OnTrigger" "sg_glass_case_11PickRandom0-1"
+		"OnTrigger" "sg_glass_11_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_10_relayTrigger0-1"
+		"OnTrigger" "sg_glass_11aKill0-1"
 	}
 	"origin" "11328 10064 608"
 	editor
@@ -16667,7 +16667,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_11b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_11bBreak0-1"
 	}
 	solid
 	{
@@ -16977,7 +16977,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_12a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_12aBreak0-1"
 	}
 	solid
 	{
@@ -17114,10 +17114,10 @@ entity
 	"targetname" "sg_glass_case_12"
 	connections
 	{
-		"OnCase01" "sg_glass_12a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_12b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_12a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_12b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_12a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_12b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_12a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_12b_breaktriggerEnable0-1"
 	}
 	"origin" "11520 10064 544"
 	editor
@@ -17154,11 +17154,11 @@ entity
 	"targetname" "sg_start_glass_12_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_12b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_12,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_12_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_11_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_12a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_12bKill0-1"
+		"OnTrigger" "sg_glass_case_12PickRandom0-1"
+		"OnTrigger" "sg_glass_12_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_11_relayTrigger0-1"
+		"OnTrigger" "sg_glass_12aKill0-1"
 	}
 	"origin" "11520 10064 608"
 	editor
@@ -17180,7 +17180,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_12b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_12bBreak0-1"
 	}
 	solid
 	{
@@ -17490,7 +17490,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_13a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_13aBreak0-1"
 	}
 	solid
 	{
@@ -17627,10 +17627,10 @@ entity
 	"targetname" "sg_glass_case_13"
 	connections
 	{
-		"OnCase01" "sg_glass_13a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_13b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_13a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_13b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_13a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_13b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_13a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_13b_breaktriggerEnable0-1"
 	}
 	"origin" "11712 10064 544"
 	editor
@@ -17667,11 +17667,11 @@ entity
 	"targetname" "sg_start_glass_13_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_13b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_13,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_13_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_12_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_13a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_13bKill0-1"
+		"OnTrigger" "sg_glass_case_13PickRandom0-1"
+		"OnTrigger" "sg_glass_13_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_12_relayTrigger0-1"
+		"OnTrigger" "sg_glass_13aKill0-1"
 	}
 	"origin" "11712 10064 608"
 	editor
@@ -17846,7 +17846,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_13b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_13bBreak0-1"
 	}
 	solid
 	{
@@ -18156,7 +18156,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_14a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_14aBreak0-1"
 	}
 	solid
 	{
@@ -18293,10 +18293,10 @@ entity
 	"targetname" "sg_glass_case_14"
 	connections
 	{
-		"OnCase01" "sg_glass_14a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_14b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_14a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_14b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_14a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_14b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_14a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_14b_breaktriggerEnable0-1"
 	}
 	"origin" "11904 10064 544"
 	editor
@@ -18333,11 +18333,11 @@ entity
 	"targetname" "sg_start_glass_14_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_14b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_14,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_14_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_13_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_14a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_14bKill0-1"
+		"OnTrigger" "sg_glass_case_14PickRandom0-1"
+		"OnTrigger" "sg_glass_14_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_13_relayTrigger0-1"
+		"OnTrigger" "sg_glass_14aKill0-1"
 	}
 	"origin" "11904 10064 608"
 	editor
@@ -18512,7 +18512,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_14b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_14bBreak0-1"
 	}
 	solid
 	{
@@ -18822,7 +18822,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_15a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_15aBreak0-1"
 	}
 	solid
 	{
@@ -18959,10 +18959,10 @@ entity
 	"targetname" "sg_glass_case_15"
 	connections
 	{
-		"OnCase01" "sg_glass_15a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_15b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_15a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_15b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_15a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_15b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_15a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_15b_breaktriggerEnable0-1"
 	}
 	"origin" "12096 10064 544"
 	editor
@@ -18999,11 +18999,11 @@ entity
 	"targetname" "sg_start_glass_15_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_15b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_15,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_15_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_14_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_15a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_15bKill0-1"
+		"OnTrigger" "sg_glass_case_15PickRandom0-1"
+		"OnTrigger" "sg_glass_15_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_14_relayTrigger0-1"
+		"OnTrigger" "sg_glass_15aKill0-1"
 	}
 	"origin" "12096 10064 608"
 	editor
@@ -19178,7 +19178,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_15b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_15bBreak0-1"
 	}
 	solid
 	{
@@ -19488,7 +19488,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_16a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_16aBreak0-1"
 	}
 	solid
 	{
@@ -19625,10 +19625,10 @@ entity
 	"targetname" "sg_glass_case_16"
 	connections
 	{
-		"OnCase01" "sg_glass_16a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_16b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_16a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_16b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_16a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_16b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_16a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_16b_breaktriggerEnable0-1"
 	}
 	"origin" "12288 10064 544"
 	editor
@@ -19665,11 +19665,11 @@ entity
 	"targetname" "sg_start_glass_16_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_16b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_16,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_16_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_15_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_16a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_16bKill0-1"
+		"OnTrigger" "sg_glass_case_16PickRandom0-1"
+		"OnTrigger" "sg_glass_16_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_15_relayTrigger0-1"
+		"OnTrigger" "sg_glass_16aKill0-1"
 	}
 	"origin" "12288 10064 608"
 	editor
@@ -19844,7 +19844,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_16b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_16bBreak0-1"
 	}
 	solid
 	{
@@ -21829,10 +21829,10 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "sg_confetti,Start,,0,-1"
-		"OnStartTouch" "sg_confetti,Stop,,1,-1"
-		"OnStartTouch" "sg_endgame_sound_welldone,PlaySound,,2,-1"
-		"OnStartTouch" "sg_endgame_sound_applause,PlaySound,,0,-1"
+		"OnStartTouch" "sg_confettiStart0-1"
+		"OnStartTouch" "sg_confettiStop1-1"
+		"OnStartTouch" "sg_endgame_sound_welldonePlaySound2-1"
+		"OnStartTouch" "sg_endgame_sound_applausePlaySound0-1"
 	}
 	solid
 	{
@@ -27462,10 +27462,10 @@ entity
 	"targetname" "sg_glass_case_4"
 	connections
 	{
-		"OnCase01" "sg_glass_4a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_4b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_4a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_4b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_4a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_4b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_4a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_4b_breaktriggerEnable0-1"
 	}
 	"origin" "9984 10064 544"
 	editor
@@ -27690,11 +27690,11 @@ entity
 	"targetname" "sg_start_glass_4_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_4b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_4,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_4_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_3_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_4a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_4bKill0-1"
+		"OnTrigger" "sg_glass_case_4PickRandom0-1"
+		"OnTrigger" "sg_glass_4_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_3_relayTrigger0-1"
+		"OnTrigger" "sg_glass_4aKill0-1"
 	}
 	"origin" "9984 10064 608"
 	editor
@@ -27869,7 +27869,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_4b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_4bBreak0-1"
 	}
 	solid
 	{
@@ -28192,38 +28192,38 @@ entity
 	"targetname" "sg_reset_killallglass_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_0a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_0b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_1a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_1b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_2a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_2b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_3a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_3b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_4a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_4b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_5a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_5b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_6a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_6b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_7a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_7b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_8a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_8b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_9a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_9b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_10a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_10b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_11a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_11b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_12a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_12b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_13a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_13b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_14a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_14b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_15a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_15b,,,0,-1"
+		"OnTrigger" "sg_glass_0aKill0-1"
+		"OnTrigger" "sg_glass_0bKill0-1"
+		"OnTrigger" "sg_glass_1aKill0-1"
+		"OnTrigger" "sg_glass_1bKill0-1"
+		"OnTrigger" "sg_glass_2aKill0-1"
+		"OnTrigger" "sg_glass_2bKill0-1"
+		"OnTrigger" "sg_glass_3aKill0-1"
+		"OnTrigger" "sg_glass_3bKill0-1"
+		"OnTrigger" "sg_glass_4aKill0-1"
+		"OnTrigger" "sg_glass_4bKill0-1"
+		"OnTrigger" "sg_glass_5aKill0-1"
+		"OnTrigger" "sg_glass_5bKill0-1"
+		"OnTrigger" "sg_glass_6aKill0-1"
+		"OnTrigger" "sg_glass_6bKill0-1"
+		"OnTrigger" "sg_glass_7aKill0-1"
+		"OnTrigger" "sg_glass_7bKill0-1"
+		"OnTrigger" "sg_glass_8aKill0-1"
+		"OnTrigger" "sg_glass_8bKill0-1"
+		"OnTrigger" "sg_glass_9aKill0-1"
+		"OnTrigger" "sg_glass_9bKill0-1"
+		"OnTrigger" "sg_glass_10aKill0-1"
+		"OnTrigger" "sg_glass_10bKill0-1"
+		"OnTrigger" "sg_glass_11aKill0-1"
+		"OnTrigger" "sg_glass_11bKill0-1"
+		"OnTrigger" "sg_glass_12aKill0-1"
+		"OnTrigger" "sg_glass_12bKill0-1"
+		"OnTrigger" "sg_glass_13aKill0-1"
+		"OnTrigger" "sg_glass_13bKill0-1"
+		"OnTrigger" "sg_glass_14aKill0-1"
+		"OnTrigger" "sg_glass_14bKill0-1"
+		"OnTrigger" "sg_glass_15aKill0-1"
+		"OnTrigger" "sg_glass_15b0-1"
 	}
 	"origin" "9072 10040 672"
 	editor
@@ -28633,7 +28633,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_3b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_3bBreak0-1"
 	}
 	solid
 	{
@@ -28922,11 +28922,11 @@ entity
 	"targetname" "sg_start_glass_3_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_3b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_3,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_3_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_2_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_3a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_3bKill0-1"
+		"OnTrigger" "sg_glass_case_3PickRandom0-1"
+		"OnTrigger" "sg_glass_3_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_2_relayTrigger0-1"
+		"OnTrigger" "sg_glass_3aKill0-1"
 	}
 	"origin" "9792 10064 608"
 	editor
@@ -28964,10 +28964,10 @@ entity
 	"targetname" "sg_glass_case_3"
 	connections
 	{
-		"OnCase01" "sg_glass_3a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_3b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_3a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_3b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_3a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_3b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_3a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_3b_breaktriggerEnable0-1"
 	}
 	"origin" "9792 10064 544"
 	editor
@@ -28989,7 +28989,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_3a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_3aBreak0-1"
 	}
 	solid
 	{
@@ -35005,12 +35005,12 @@ entity
 	"targetname" "sg_reset_relay"
 	connections
 	{
-		"OnTrigger" "sg_door_entrance,Open,,0,-1"
-		"OnTrigger" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_pregame,0,-1"
-		"OnTrigger" "sg_start_button_train,StartBackward,,0,-1"
-		"OnTrigger" "sg_start_door_left,Close,,0,-1"
-		"OnTrigger" "sg_start_door_right,Close,,0,-1"
-		"OnTrigger" "sg_reset_killallglass_relay,Trigger,,0,-1"
+		"OnTrigger" "sg_door_entranceOpen0-1"
+		"OnTrigger" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_pregame0-1"
+		"OnTrigger" "sg_start_button_trainStartBackward0-1"
+		"OnTrigger" "sg_start_door_leftClose0-1"
+		"OnTrigger" "sg_start_door_rightClose0-1"
+		"OnTrigger" "sg_reset_killallglass_relayTrigger0-1"
 	}
 	"origin" "9072 10064 672"
 	editor
@@ -35030,8 +35030,8 @@ entity
 	"targetname" "sg_endgame_relay"
 	connections
 	{
-		"OnTrigger" "sg_door_entrance,Open,,0,-1"
-		"OnTrigger" "sg_reset_relay,Trigger,,0,-1"
+		"OnTrigger" "sg_door_entranceOpen0-1"
+		"OnTrigger" "sg_reset_relayTrigger0-1"
 	}
 	"origin" "9072 10064 648"
 	editor
@@ -35050,14 +35050,14 @@ entity
 	"targetname" "sg_start_relay"
 	connections
 	{
-		"OnTrigger" "sg_player_counter_zone,Enable,,0,-1"
-		"OnTrigger" "sg_player_counter_zone,Disable,,0.5,-1"
-		"OnTrigger" "sg_player_counter,SetValue,0,0.5,-1"
-		"OnTrigger" "sg_endgame_player_counter_zone,Enable,,0,-1"
-		"OnTrigger" "sg_door_entrance,Close,,0,-1"
-		"OnTrigger" "sg_start_button_train,StartForward,,0,-1"
-		"OnTrigger" "sg_start_door_left,Open,,0,-1"
-		"OnTrigger" "sg_start_door_right,Open,,0,-1"
+		"OnTrigger" "sg_player_counter_zoneEnable0-1"
+		"OnTrigger" "sg_player_counter_zoneDisable0.5-1"
+		"OnTrigger" "sg_player_counterSetValue00.5-1"
+		"OnTrigger" "sg_endgame_player_counter_zoneEnable0-1"
+		"OnTrigger" "sg_door_entranceClose0-1"
+		"OnTrigger" "sg_start_button_trainStartForward0-1"
+		"OnTrigger" "sg_start_door_leftOpen0-1"
+		"OnTrigger" "sg_start_door_rightOpen0-1"
 	}
 	"origin" "9072 10064 624"
 	editor
@@ -35099,9 +35099,9 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnEndTouchAll" "sg_DEBUG_endgame_hudhint,HideHudHint,,2,-1"
-		"OnEndTouchAll" "sg_DEBUG_endgame_hudhint,ShowHudHint,,0,-1"
-		"OnEndTouchAll" "sg_endgame_relay,Trigger,,0,-1"
+		"OnEndTouchAll" "sg_DEBUG_endgame_hudhintHideHudHint2-1"
+		"OnEndTouchAll" "sg_DEBUG_endgame_hudhintShowHudHint0-1"
+		"OnEndTouchAll" "sg_endgame_relayTrigger0-1"
 	}
 	solid
 	{
@@ -35424,36 +35424,36 @@ entity
 	"targetname" "sg_setup_by_player_count"
 	connections
 	{
-		"OnCase01" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_01,0,-1"
-		"OnCase02" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_02,0,-1"
-		"OnCase04" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_04,0,-1"
-		"OnCase05" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_05,0,-1"
-		"OnCase06" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_06,0,-1"
-		"OnCase07" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_07,0,-1"
-		"OnCase08" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_08,0,-1"
-		"OnCase09" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_09,0,-1"
-		"OnCase10" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_10,0,-1"
-		"OnCase11" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_11,0,-1"
-		"OnCase12" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_12,0,-1"
-		"OnCase13" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_13,0,-1"
-		"OnCase14" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_14,0,-1"
-		"OnCase15" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_15,0,-1"
-		"OnCase03" "sg_end_platform_train,TeleportToPathTrack,sg_end_platform_track_03,0,-1"
-		"OnCase01" "sg_start_glass_2_relay,Trigger,,0,-1"
-		"OnCase02" "sg_start_glass_3_relay,Trigger,,0,-1"
-		"OnCase03" "sg_start_glass_4_relay,Trigger,,0,-1"
-		"OnCase04" "sg_start_glass_5_relay,Trigger,,0,-1"
-		"OnCase05" "sg_start_glass_6_relay,Trigger,,0,-1"
-		"OnCase06" "sg_start_glass_7_relay,Trigger,,0,-1"
-		"OnCase07" "sg_start_glass_8_relay,Trigger,,0,-1"
-		"OnCase08" "sg_start_glass_9_relay,Trigger,,0,-1"
-		"OnCase10" "sg_start_glass_11_relay,Trigger,,0,-1"
-		"OnCase11" "sg_start_glass_12_relay,Trigger,,0,-1"
-		"OnCase12" "sg_start_glass_13_relay,Trigger,,0,-1"
-		"OnCase13" "sg_start_glass_14_relay,Trigger,,0,-1"
-		"OnCase14" "sg_start_glass_15_relay,Trigger,,0,-1"
-		"OnCase15" "sg_start_glass_16_relay,Trigger,,0,-1"
-		"OnCase09" "sg_start_glass_10_relay,Trigger,,0,-1"
+		"OnCase01" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_010-1"
+		"OnCase02" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_020-1"
+		"OnCase04" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_040-1"
+		"OnCase05" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_050-1"
+		"OnCase06" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_060-1"
+		"OnCase07" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_070-1"
+		"OnCase08" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_080-1"
+		"OnCase09" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_090-1"
+		"OnCase10" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_100-1"
+		"OnCase11" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_110-1"
+		"OnCase12" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_120-1"
+		"OnCase13" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_130-1"
+		"OnCase14" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_140-1"
+		"OnCase15" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_150-1"
+		"OnCase03" "sg_end_platform_trainTeleportToPathTracksg_end_platform_track_030-1"
+		"OnCase01" "sg_start_glass_2_relayTrigger0-1"
+		"OnCase02" "sg_start_glass_3_relayTrigger0-1"
+		"OnCase03" "sg_start_glass_4_relayTrigger0-1"
+		"OnCase04" "sg_start_glass_5_relayTrigger0-1"
+		"OnCase05" "sg_start_glass_6_relayTrigger0-1"
+		"OnCase06" "sg_start_glass_7_relayTrigger0-1"
+		"OnCase07" "sg_start_glass_8_relayTrigger0-1"
+		"OnCase08" "sg_start_glass_9_relayTrigger0-1"
+		"OnCase10" "sg_start_glass_11_relayTrigger0-1"
+		"OnCase11" "sg_start_glass_12_relayTrigger0-1"
+		"OnCase12" "sg_start_glass_13_relayTrigger0-1"
+		"OnCase13" "sg_start_glass_14_relayTrigger0-1"
+		"OnCase14" "sg_start_glass_15_relayTrigger0-1"
+		"OnCase15" "sg_start_glass_16_relayTrigger0-1"
+		"OnCase09" "sg_start_glass_10_relayTrigger0-1"
 	}
 	"origin" "8988 9632 536"
 	editor
@@ -35472,11 +35472,11 @@ entity
 	"targetname" "sg_start_glass_2_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_2b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_2,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_2_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_1_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_2a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_2bKill0-1"
+		"OnTrigger" "sg_glass_case_2PickRandom0-1"
+		"OnTrigger" "sg_glass_2_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_1_relayTrigger0-1"
+		"OnTrigger" "sg_glass_2aKill0-1"
 	}
 	"origin" "9600 10064 608"
 	editor
@@ -35495,11 +35495,11 @@ entity
 	"targetname" "sg_start_glass_1_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_1_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_glass_1a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_1b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_1,PickRandom,,0,-1"
-		"OnTrigger" "sg_start_glass_0_relay,Trigger,,0,-1"
+		"OnTrigger" "sg_glass_1_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_glass_1aKill0-1"
+		"OnTrigger" "sg_glass_1bKill0-1"
+		"OnTrigger" "sg_glass_case_1PickRandom0-1"
+		"OnTrigger" "sg_start_glass_0_relayTrigger0-1"
 	}
 	"origin" "9408 10064 608"
 	editor
@@ -35518,10 +35518,10 @@ entity
 	"targetname" "sg_start_glass_0_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_0_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_glass_0a,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_0,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_0b,Kill,,0,-1"
+		"OnTrigger" "sg_glass_0_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_glass_0aKill0-1"
+		"OnTrigger" "sg_glass_case_0PickRandom0-1"
+		"OnTrigger" "sg_glass_0bKill0-1"
 	}
 	"origin" "9216 10064 608"
 	editor
@@ -35713,7 +35713,7 @@ entity
 	"targetname" "sg_player_counter"
 	connections
 	{
-		"OutValue" "sg_setup_by_player_count,InValue,,0,-1"
+		"OutValue" "sg_setup_by_player_countInValue0-1"
 	}
 	"origin" "8988 9680 540"
 	editor
@@ -35735,7 +35735,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "sg_player_counter,Add,1,0,-1"
+		"OnStartTouch" "sg_player_counterAdd10-1"
 	}
 	solid
 	{
@@ -35889,7 +35889,7 @@ entity
 	"wait" "3"
 	connections
 	{
-		"OnDamaged" "sg_start_relay,Trigger,,0,-1"
+		"OnDamaged" "sg_start_relayTrigger0-1"
 	}
 	solid
 	{
@@ -36295,7 +36295,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_5a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_5aBreak0-1"
 	}
 	solid
 	{
@@ -36432,10 +36432,10 @@ entity
 	"targetname" "sg_glass_case_5"
 	connections
 	{
-		"OnCase01" "sg_glass_5a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_5b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_5a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_5b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_5a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_5b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_5a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_5b_breaktriggerEnable0-1"
 	}
 	"origin" "10176 10064 544"
 	editor
@@ -36472,11 +36472,11 @@ entity
 	"targetname" "sg_start_glass_5_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_5b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_5,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_5_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_4_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_5a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_5bKill0-1"
+		"OnTrigger" "sg_glass_case_5PickRandom0-1"
+		"OnTrigger" "sg_glass_5_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_4_relayTrigger0-1"
+		"OnTrigger" "sg_glass_5aKill0-1"
 	}
 	"origin" "10176 10064 608"
 	editor
@@ -36651,7 +36651,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_5b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_5bBreak0-1"
 	}
 	solid
 	{
@@ -36961,7 +36961,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_6a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_6aBreak0-1"
 	}
 	solid
 	{
@@ -37098,10 +37098,10 @@ entity
 	"targetname" "sg_glass_case_6"
 	connections
 	{
-		"OnCase01" "sg_glass_6a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_6b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_6a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_6b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_6a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_6b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_6a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_6b_breaktriggerEnable0-1"
 	}
 	"origin" "10368 10064 544"
 	editor
@@ -37138,11 +37138,11 @@ entity
 	"targetname" "sg_start_glass_6_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_6b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_6,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_6_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_5_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_6a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_6bKill0-1"
+		"OnTrigger" "sg_glass_case_6PickRandom0-1"
+		"OnTrigger" "sg_glass_6_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_5_relayTrigger0-1"
+		"OnTrigger" "sg_glass_6aKill0-1"
 	}
 	"origin" "10368 10064 608"
 	editor
@@ -37317,7 +37317,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_6b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_6bBreak0-1"
 	}
 	solid
 	{
@@ -37627,7 +37627,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_7a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_7aBreak0-1"
 	}
 	solid
 	{
@@ -37764,10 +37764,10 @@ entity
 	"targetname" "sg_glass_case_7"
 	connections
 	{
-		"OnCase01" "sg_glass_7a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_7b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_7a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_7b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_7a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_7b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_7a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_7b_breaktriggerEnable0-1"
 	}
 	"origin" "10560 10064 544"
 	editor
@@ -37804,11 +37804,11 @@ entity
 	"targetname" "sg_start_glass_7_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_7b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_7,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_7_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_6_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_7a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_7bKill0-1"
+		"OnTrigger" "sg_glass_case_7PickRandom0-1"
+		"OnTrigger" "sg_glass_7_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_6_relayTrigger0-1"
+		"OnTrigger" "sg_glass_7aKill0-1"
 	}
 	"origin" "10560 10064 608"
 	editor
@@ -37983,7 +37983,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_7b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_7bBreak0-1"
 	}
 	solid
 	{
@@ -38293,7 +38293,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_8a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_8aBreak0-1"
 	}
 	solid
 	{
@@ -38430,10 +38430,10 @@ entity
 	"targetname" "sg_glass_case_8"
 	connections
 	{
-		"OnCase01" "sg_glass_8a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_8b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_8a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_8b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_8a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_8b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_8a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_8b_breaktriggerEnable0-1"
 	}
 	"origin" "10752 10064 544"
 	editor
@@ -38470,11 +38470,11 @@ entity
 	"targetname" "sg_start_glass_8_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_8b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_8,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_8_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_7_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_8a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_8bKill0-1"
+		"OnTrigger" "sg_glass_case_8PickRandom0-1"
+		"OnTrigger" "sg_glass_8_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_7_relayTrigger0-1"
+		"OnTrigger" "sg_glass_8aKill0-1"
 	}
 	"origin" "10752 10064 608"
 	editor
@@ -38649,7 +38649,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_8b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_8bBreak0-1"
 	}
 	solid
 	{
@@ -38959,7 +38959,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_9a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_9aBreak0-1"
 	}
 	solid
 	{
@@ -39096,10 +39096,10 @@ entity
 	"targetname" "sg_glass_case_9"
 	connections
 	{
-		"OnCase01" "sg_glass_9a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_9b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_9a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_9b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_9a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_9b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_9a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_9b_breaktriggerEnable0-1"
 	}
 	"origin" "10944 10064 544"
 	editor
@@ -39136,11 +39136,11 @@ entity
 	"targetname" "sg_start_glass_9_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_9b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_9,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_9_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_8_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_9a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_9bKill0-1"
+		"OnTrigger" "sg_glass_case_9PickRandom0-1"
+		"OnTrigger" "sg_glass_9_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_8_relayTrigger0-1"
+		"OnTrigger" "sg_glass_9aKill0-1"
 	}
 	"origin" "10944 10064 608"
 	editor
@@ -43105,7 +43105,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_10b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_10bBreak0-1"
 	}
 	solid
 	{
@@ -46019,11 +46019,11 @@ entity
 	"targetname" "sg_start_glass_10_relay"
 	connections
 	{
-		"OnTrigger" "sg_glass_10b,Kill,,0,-1"
-		"OnTrigger" "sg_glass_case_10,PickRandom,,0,-1"
-		"OnTrigger" "sg_glass_10_respawner,ForceSpawn,,0.1,-1"
-		"OnTrigger" "sg_start_glass_9_relay,Trigger,,0,-1"
-		"OnTrigger" "sg_glass_10a,Kill,,0,-1"
+		"OnTrigger" "sg_glass_10bKill0-1"
+		"OnTrigger" "sg_glass_case_10PickRandom0-1"
+		"OnTrigger" "sg_glass_10_respawnerForceSpawn0.1-1"
+		"OnTrigger" "sg_start_glass_9_relayTrigger0-1"
+		"OnTrigger" "sg_glass_10aKill0-1"
 	}
 	"origin" "11136 10064 608"
 	editor
@@ -46061,10 +46061,10 @@ entity
 	"targetname" "sg_glass_case_10"
 	connections
 	{
-		"OnCase01" "sg_glass_10a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_10b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_10a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_10b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_10a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_10b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_10a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_10b_breaktriggerEnable0-1"
 	}
 	"origin" "11136 10064 544"
 	editor
@@ -46086,7 +46086,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_10a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_10aBreak0-1"
 	}
 	solid
 	{
@@ -46396,7 +46396,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_9b,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_9bBreak0-1"
 	}
 	solid
 	{
@@ -47183,10 +47183,10 @@ entity
 	"targetname" "sg_glass_case_11"
 	connections
 	{
-		"OnCase01" "sg_glass_11a_breaktrigger,Enable,,0,-1"
-		"OnCase01" "sg_glass_11b_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_11a_breaktrigger,Disable,,0,-1"
-		"OnCase02" "sg_glass_11b_breaktrigger,Enable,,0,-1"
+		"OnCase01" "sg_glass_11a_breaktriggerEnable0-1"
+		"OnCase01" "sg_glass_11b_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_11a_breaktriggerDisable0-1"
+		"OnCase02" "sg_glass_11b_breaktriggerEnable0-1"
 	}
 	"origin" "11328 10064 544"
 	editor
@@ -47208,7 +47208,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouchAll" "sg_glass_11a,Break,,0,-1"
+		"OnStartTouchAll" "sg_glass_11aBreak0-1"
 	}
 	solid
 	{
@@ -47341,8 +47341,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[6194.56 9241.18 656.891]"
-		"look" "[6193.7 9240.7 656.636]"
+		"position" "[6979.95 9214.25 638.926]"
+		"look" "[6978.94 9214.37 638.904]"
 	}
 }
 cordons

@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "518"
+	"editorbuild" "8872"
+	"mapversion" "519"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "518"
+	"mapversion" "519"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -43246,13 +43246,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect1,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect1,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger1,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger1,Enable,,30,-1"
-		"OnStartTouch" "fish_sound1,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood1,Start,,0,-1"
-		"OnStartTouch" "fish_blood1,Stop,,1,-1"
+		"OnStartTouch" "fish_collect1TurnOff0-1"
+		"OnStartTouch" "fish_collect1TurnOn30-1"
+		"OnStartTouch" "fish_trigger1Disable0-1"
+		"OnStartTouch" "fish_trigger1Enable30-1"
+		"OnStartTouch" "fish_sound1PlaySound0-1"
+		"OnStartTouch" "fish_blood1Start0-1"
+		"OnStartTouch" "fish_blood1Stop1-1"
 	}
 	solid
 	{
@@ -43642,13 +43642,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect2,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect2,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger2,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger2,Enable,,30,-1"
-		"OnStartTouch" "fish_sound2,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood2,Start,,0,-1"
-		"OnStartTouch" "fish_blood2,Stop,,1,-1"
+		"OnStartTouch" "fish_collect2TurnOff0-1"
+		"OnStartTouch" "fish_collect2TurnOn30-1"
+		"OnStartTouch" "fish_trigger2Disable0-1"
+		"OnStartTouch" "fish_trigger2Enable30-1"
+		"OnStartTouch" "fish_sound2PlaySound0-1"
+		"OnStartTouch" "fish_blood2Start0-1"
+		"OnStartTouch" "fish_blood2Stop1-1"
 	}
 	solid
 	{
@@ -44038,13 +44038,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect3,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect3,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger3,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger3,Enable,,30,-1"
-		"OnStartTouch" "fish_sound3,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood3,Start,,0,-1"
-		"OnStartTouch" "fish_blood3,Stop,,1,-1"
+		"OnStartTouch" "fish_collect3TurnOff0-1"
+		"OnStartTouch" "fish_collect3TurnOn30-1"
+		"OnStartTouch" "fish_trigger3Disable0-1"
+		"OnStartTouch" "fish_trigger3Enable30-1"
+		"OnStartTouch" "fish_sound3PlaySound0-1"
+		"OnStartTouch" "fish_blood3Start0-1"
+		"OnStartTouch" "fish_blood3Stop1-1"
 	}
 	solid
 	{
@@ -44434,13 +44434,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect4,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect4,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger4,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger4,Enable,,30,-1"
-		"OnStartTouch" "fish_sound4,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood4,Start,,0,-1"
-		"OnStartTouch" "fish_blood4,Stop,,1,-1"
+		"OnStartTouch" "fish_collect4TurnOff0-1"
+		"OnStartTouch" "fish_collect4TurnOn30-1"
+		"OnStartTouch" "fish_trigger4Disable0-1"
+		"OnStartTouch" "fish_trigger4Enable30-1"
+		"OnStartTouch" "fish_sound4PlaySound0-1"
+		"OnStartTouch" "fish_blood4Start0-1"
+		"OnStartTouch" "fish_blood4Stop1-1"
 	}
 	solid
 	{
@@ -44830,13 +44830,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect5,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect5,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger5,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger5,Enable,,30,-1"
-		"OnStartTouch" "fish_sound5,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood5,Start,,0,-1"
-		"OnStartTouch" "fish_blood5,Stop,,1,-1"
+		"OnStartTouch" "fish_collect5TurnOff0-1"
+		"OnStartTouch" "fish_collect5TurnOn30-1"
+		"OnStartTouch" "fish_trigger5Disable0-1"
+		"OnStartTouch" "fish_trigger5Enable30-1"
+		"OnStartTouch" "fish_sound5PlaySound0-1"
+		"OnStartTouch" "fish_blood5Start0-1"
+		"OnStartTouch" "fish_blood5Stop1-1"
 	}
 	solid
 	{
@@ -45226,13 +45226,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect6,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect6,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger6,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger6,Enable,,30,-1"
-		"OnStartTouch" "fish_sound6,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood6,Start,,0,-1"
-		"OnStartTouch" "fish_blood6,Stop,,1,-1"
+		"OnStartTouch" "fish_collect6TurnOff0-1"
+		"OnStartTouch" "fish_collect6TurnOn30-1"
+		"OnStartTouch" "fish_trigger6Disable0-1"
+		"OnStartTouch" "fish_trigger6Enable30-1"
+		"OnStartTouch" "fish_sound6PlaySound0-1"
+		"OnStartTouch" "fish_blood6Start0-1"
+		"OnStartTouch" "fish_blood6Stop1-1"
 	}
 	solid
 	{
@@ -45622,13 +45622,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect7,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect7,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger7,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger7,Enable,,30,-1"
-		"OnStartTouch" "fish_sound7,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood7,Start,,0,-1"
-		"OnStartTouch" "fish_blood7,Stop,,1,-1"
+		"OnStartTouch" "fish_collect7TurnOff0-1"
+		"OnStartTouch" "fish_collect7TurnOn30-1"
+		"OnStartTouch" "fish_trigger7Disable0-1"
+		"OnStartTouch" "fish_trigger7Enable30-1"
+		"OnStartTouch" "fish_sound7PlaySound0-1"
+		"OnStartTouch" "fish_blood7Start0-1"
+		"OnStartTouch" "fish_blood7Stop1-1"
 	}
 	solid
 	{
@@ -46018,13 +46018,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect8,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect8,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger8,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger8,Enable,,30,-1"
-		"OnStartTouch" "fish_sound8,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood8,Start,,0,-1"
-		"OnStartTouch" "fish_blood8,Stop,,1,-1"
+		"OnStartTouch" "fish_collect8TurnOff0-1"
+		"OnStartTouch" "fish_collect8TurnOn30-1"
+		"OnStartTouch" "fish_trigger8Disable0-1"
+		"OnStartTouch" "fish_trigger8Enable30-1"
+		"OnStartTouch" "fish_sound8PlaySound0-1"
+		"OnStartTouch" "fish_blood8Start0-1"
+		"OnStartTouch" "fish_blood8Stop1-1"
 	}
 	solid
 	{
@@ -46414,13 +46414,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect9,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect9,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger9,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger9,Enable,,30,-1"
-		"OnStartTouch" "fish_sound9,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood9,Start,,0,-1"
-		"OnStartTouch" "fish_blood9,Stop,,1,-1"
+		"OnStartTouch" "fish_collect9TurnOff0-1"
+		"OnStartTouch" "fish_collect9TurnOn30-1"
+		"OnStartTouch" "fish_trigger9Disable0-1"
+		"OnStartTouch" "fish_trigger9Enable30-1"
+		"OnStartTouch" "fish_sound9PlaySound0-1"
+		"OnStartTouch" "fish_blood9Start0-1"
+		"OnStartTouch" "fish_blood9Stop1-1"
 	}
 	solid
 	{
@@ -46810,13 +46810,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect10,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect10,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger10,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger10,Enable,,30,-1"
-		"OnStartTouch" "fish_sound10,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood10,Start,,0,-1"
-		"OnStartTouch" "fish_blood10,Stop,,1,-1"
+		"OnStartTouch" "fish_collect10TurnOff0-1"
+		"OnStartTouch" "fish_collect10TurnOn30-1"
+		"OnStartTouch" "fish_trigger10Disable0-1"
+		"OnStartTouch" "fish_trigger10Enable30-1"
+		"OnStartTouch" "fish_sound10PlaySound0-1"
+		"OnStartTouch" "fish_blood10Start0-1"
+		"OnStartTouch" "fish_blood10Stop1-1"
 	}
 	solid
 	{
@@ -47206,13 +47206,13 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "fish_collect11,TurnOff,,0,-1"
-		"OnStartTouch" "fish_collect11,TurnOn,,30,-1"
-		"OnStartTouch" "fish_trigger11,Disable,,0,-1"
-		"OnStartTouch" "fish_trigger11,Enable,,30,-1"
-		"OnStartTouch" "fish_sound11,PlaySound,,0,-1"
-		"OnStartTouch" "fish_blood11,Start,,0,-1"
-		"OnStartTouch" "fish_blood11,Stop,,1,-1"
+		"OnStartTouch" "fish_collect11TurnOff0-1"
+		"OnStartTouch" "fish_collect11TurnOn30-1"
+		"OnStartTouch" "fish_trigger11Disable0-1"
+		"OnStartTouch" "fish_trigger11Enable30-1"
+		"OnStartTouch" "fish_sound11PlaySound0-1"
+		"OnStartTouch" "fish_blood11Start0-1"
+		"OnStartTouch" "fish_blood11Stop1-1"
 	}
 	solid
 	{
@@ -58562,8 +58562,8 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "seal_nom_sound2,PlaySound,,0,-1"
-		"OnStartTouch" "seal_nom_sound2,StopSound,,0.5,-1"
+		"OnStartTouch" "seal_nom_sound2PlaySound0-1"
+		"OnStartTouch" "seal_nom_sound2StopSound0.5-1"
 	}
 	solid
 	{
@@ -60102,8 +60102,8 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "seal_nom_sound,PlaySound,,0,-1"
-		"OnStartTouch" "seal_nom_sound,StopSound,,0.5,-1"
+		"OnStartTouch" "seal_nom_soundPlaySound0-1"
+		"OnStartTouch" "seal_nom_soundStopSound0.5-1"
 	}
 	solid
 	{
@@ -61270,8 +61270,8 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "particle_bubbles_pipe,Start,,0.1,-1"
-		"OnMapSpawn" "particle_bubbles_pipe,Stop,,0,-1"
+		"OnMapSpawn" "particle_bubbles_pipeStart0.1-1"
+		"OnMapSpawn" "particle_bubbles_pipeStop0-1"
 	}
 	"origin" "645 683.5 -12.8539"
 	editor
@@ -61289,14 +61289,14 @@ entity
 	"targetname" "bubbleblower_case"
 	connections
 	{
-		"OnCase01" "particle_bubbles1,Start,,0.1,-1"
-		"OnCase01" "particle_bubbles1,Stop,,0,-1"
-		"OnCase02" "particle_bubbles2,Start,,0.1,-1"
-		"OnCase02" "particle_bubbles2,Stop,,0,-1"
-		"OnCase03" "particle_bubbles3,Start,,0.1,-1"
-		"OnCase03" "particle_bubbles3,Stop,,0,-1"
-		"OnCase04" "particle_bubbles4,Start,,0.1,-1"
-		"OnCase04" "particle_bubbles4,Stop,,0,-1"
+		"OnCase01" "particle_bubbles1Start0.1-1"
+		"OnCase01" "particle_bubbles1Stop0-1"
+		"OnCase02" "particle_bubbles2Start0.1-1"
+		"OnCase02" "particle_bubbles2Stop0-1"
+		"OnCase03" "particle_bubbles3Start0.1-1"
+		"OnCase03" "particle_bubbles3Stop0-1"
+		"OnCase04" "particle_bubbles4Start0.1-1"
+		"OnCase04" "particle_bubbles4Stop0-1"
 	}
 	"origin" "678 434 -16.0362"
 	editor
@@ -61317,7 +61317,7 @@ entity
 	"UseRandomTime" "1"
 	connections
 	{
-		"OnTimer" "bubbleblower_case,PickRandom,,0,-1"
+		"OnTimer" "bubbleblower_casePickRandom0-1"
 	}
 	"origin" "678.089 453.75 -16.0362"
 	editor

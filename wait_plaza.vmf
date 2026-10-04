@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "488"
+	"editorbuild" "8872"
+	"mapversion" "499"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "488"
+	"mapversion" "499"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites_2fort"
@@ -36535,9 +36535,14 @@ entity
 {
 	"id" "7777"
 	"classname" "tf_gamerules"
+	"activeteam1" "1"
+	"activeteam2" "1"
+	"activeteam3" "1"
+	"activeteam4" "1"
 	"ctf_overtime" "1"
-	"fourteammode" "1"
 	"hud_type" "2"
+	"ropes_holiday_lights_allowed" "1"
+	"spawncamp_window_override" "-1"
 	"targetname" "gamerules"
 	"origin" "160 -256 8"
 	editor
@@ -44578,17 +44583,15 @@ entity
 	"id" "38953"
 	"classname" "item_teamflag"
 	"angles" "0 0 0"
-	"ExplosionDamage" "80"
-	"ExplosionRadius" "250"
 	"flag_icon" "../hud/objectives_flagpanel_carried"
 	"flag_model" "models/flag/penguin_flag_keypad.mdl"
 	"flag_paper" "player_intel_papertrail"
 	"flag_trail" "flagtrail"
 	"GameType" "3"
 	"NeutralType" "0"
+	"ReturnBetweenWaves" "1"
 	"ReturnTime" "15"
 	"ScoringType" "1"
-	"skin" "0"
 	"StartDisabled" "1"
 	"targetname" "secretflag"
 	"trail_effect" "0"
@@ -45154,7 +45157,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "egypt/scratch"
-	"sides" "15174"
+	"sides" "54370"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-32 -32 0"
@@ -45383,7 +45386,6 @@ entity
 	"health" "0"
 	"ignoredebris" "0"
 	"lip" "0"
-	"locked_sentence" "0"
 	"loopmovesound" "0"
 	"movedir" "90 0 0"
 	"origin" "112 976 24"
@@ -45395,7 +45397,6 @@ entity
 	"spawnpos" "1"
 	"speed" "300"
 	"targetname" "carstop_mover2"
-	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
 	{
@@ -45748,7 +45749,6 @@ entity
 	"health" "0"
 	"ignoredebris" "0"
 	"lip" "0"
-	"locked_sentence" "0"
 	"loopmovesound" "0"
 	"movedir" "90 0 0"
 	"origin" "-112 1200 24"
@@ -45760,7 +45760,6 @@ entity
 	"spawnpos" "1"
 	"speed" "300"
 	"targetname" "carstop_mover"
-	"unlocked_sentence" "0"
 	"wait" "-1"
 	solid
 	{
@@ -47041,10 +47040,6 @@ entity
 	"speed" "0"
 	"target" "carend2"
 	"targetname" "carpath30"
-	connections
-	{
-		"" "0-1"
-	}
 	"origin" "-2400 176 80"
 	editor
 	{
@@ -54545,35 +54540,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "35571"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "-0 -1 -0"
-	"BasisOrigin" "-7.62939e-06 2880 160"
-	"BasisU" "1 0 0"
-	"BasisV" "0 0 1"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "signs/mvm_danger02"
-	"sides" ""
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-32 -32 0"
-	"uv1" "-32 32 0"
-	"uv2" "32 32 0"
-	"uv3" "32 -32 0"
-	"origin" "-7.62939e-06 2880 160"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
 	}
 }
 entity
@@ -64176,11 +64142,6 @@ entity
 	"AutoMaterialize" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"respawntime_override" "0"
-	"respawntime_override_time" "15"
-	"spawnflags" "0"
 	"origin" "-1792 5376 80"
 	editor
 	{
@@ -64198,11 +64159,6 @@ entity
 	"AutoMaterialize" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"respawntime_override" "0"
-	"respawntime_override_time" "15"
-	"spawnflags" "0"
 	"origin" "-2304 6144 80"
 	editor
 	{
@@ -75649,17 +75605,18 @@ entity
 entity
 {
 	"id" "99739"
-	"classname" "trigger_add_tf_player_condition"
-	"condition" "51"
-	"duration" "-1"
+	"classname" "trigger_multiple"
 	"origin" "-2048 5760 464"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"wait" "1"
 	connections
 	{
 		"OnEndTouchAll" "resetTrigger0-1"
 		"OnStartTouchAll" "centralfieldTeleport0-1"
 		"OnStartTouchAll" "footballEnableMotion0-1"
+		"OnStartTouch" "!activatorRunScriptCodeif(self.GetContext(`soda_effect`)!=`yes`){self.AddCustomAttribute(`dmg taken increased`, 0.001, 0)}0-1"
+		"OnEndTouch" "!activatorRunScriptCodeif(self.GetContext(`soda_effect`)!=`yes`){self.RemoveCustomAttribute(`dmg taken increased`)}0-1"
 	}
 	solid
 	{
@@ -77697,9 +77654,9 @@ entity
 	"classname" "editor_text"
 	"angles" "-0 90 0"
 	"color" "255 255 255"
-	"message" "Civshop (Untouched)"
+	"message" "Civshop (Changed cash entity)"
 	"textsize" "20"
-	"origin" "2384 224 253.603"
+	"origin" "2336 224 261.603"
 	editor
 	{
 		"color" "220 30 220"
@@ -122661,13 +122618,30 @@ entity
 		"logicalpos" "[0 6000]"
 	}
 }
+entity
+{
+	"id" "148728"
+	"classname" "editor_text"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "added a crossover secret -iti4"
+	"textsize" "14"
+	"origin" "178 1664 440"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2835.34 6231 315.676]"
-		"look" "[-2834.31 6230.93 315.654]"
+		"position" "[1328.84 272.588 1003.03]"
+		"look" "[1329.67 273.061 1002.64]"
 	}
 }
 cordons

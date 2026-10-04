@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "40"
+	"editorbuild" "8872"
+	"mapversion" "41"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "41"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites_2fort"
@@ -70849,18 +70849,18 @@ entity
 	"team_timedpoints_5" "0"
 	connections
 	{
-		"OnCapTeam1" "canal_boat_dispenser_disablerelay,Trigger,,0,-1"
-		"OnCapTeam2" "canal_boat_dispenser_disablerelay,Trigger,,0,-1"
-		"OnCapTeam3" "canal_boat_dispenser_disablerelay,Trigger,,0,-1"
-		"OnCapTeam4" "canal_boat_dispenser_disablerelay,Trigger,,0,-1"
-		"OnCapTeam1" "canal_boat_dispenser_red,Enable,,0.1,-1"
-		"OnCapTeam2" "canal_boat_dispenser_blu,Enable,,0.1,-1"
-		"OnCapTeam3" "canal_boat_dispenser_grn,Enable,,0.1,-1"
-		"OnCapTeam4" "canal_boat_dispenser_ylw,Enable,,0.1,-1"
-		"OnCapTeam1" "canal_boat_point_mdl,Skin,1,0,-1"
-		"OnCapTeam2" "canal_boat_point_mdl,Skin,2,0,-1"
-		"OnCapTeam3" "canal_boat_point_mdl,Skin,3,0,-1"
-		"OnCapTeam4" "canal_boat_point_mdl,Skin,4,0,-1"
+		"OnCapTeam1" "canal_boat_dispenser_disablerelayTrigger0-1"
+		"OnCapTeam2" "canal_boat_dispenser_disablerelayTrigger0-1"
+		"OnCapTeam3" "canal_boat_dispenser_disablerelayTrigger0-1"
+		"OnCapTeam4" "canal_boat_dispenser_disablerelayTrigger0-1"
+		"OnCapTeam1" "canal_boat_dispenser_redEnable0.1-1"
+		"OnCapTeam2" "canal_boat_dispenser_bluEnable0.1-1"
+		"OnCapTeam3" "canal_boat_dispenser_grnEnable0.1-1"
+		"OnCapTeam4" "canal_boat_dispenser_ylwEnable0.1-1"
+		"OnCapTeam1" "canal_boat_point_mdlSkin10-1"
+		"OnCapTeam2" "canal_boat_point_mdlSkin20-1"
+		"OnCapTeam3" "canal_boat_point_mdlSkin30-1"
+		"OnCapTeam4" "canal_boat_point_mdlSkin40-1"
 	}
 	"origin" "-56 -2384 480"
 	editor
@@ -100356,8 +100356,8 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "canal_bridge,Open,,0,-1"
-		"OnEndTouchAll" "canal_bridge,Close,,0,-1"
+		"OnStartTouch" "canal_bridgeOpen0-1"
+		"OnEndTouchAll" "canal_bridgeClose0-1"
 	}
 	solid
 	{
@@ -100701,10 +100701,10 @@ entity
 	"targetname" "canal_boat_dispenser_disablerelay"
 	connections
 	{
-		"OnTrigger" "canal_boat_dispenser_blu,Disable,,0,-1"
-		"OnTrigger" "canal_boat_dispenser_grn,Disable,,0,-1"
-		"OnTrigger" "canal_boat_dispenser_red,Disable,,0,-1"
-		"OnTrigger" "canal_boat_dispenser_ylw,Disable,,0,-1"
+		"OnTrigger" "canal_boat_dispenser_bluDisable0-1"
+		"OnTrigger" "canal_boat_dispenser_grnDisable0-1"
+		"OnTrigger" "canal_boat_dispenser_redDisable0-1"
+		"OnTrigger" "canal_boat_dispenser_ylwDisable0-1"
 	}
 	"origin" "352 -2816 -8"
 	editor

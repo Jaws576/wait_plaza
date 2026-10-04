@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "20"
+	"editorbuild" "8872"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites_2fort"
@@ -39878,7 +39878,7 @@ entity
 				"v" "636.788 -765.588 -2336"
 				"v" "620.788 -765.588 -2336"
 			}
-			"material" "TEST/COLOR014"
+			"material" "TEST/COLOR007"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -39896,7 +39896,7 @@ entity
 				"v" "636.788 -749.588 -2352"
 				"v" "620.788 -749.588 -2352"
 			}
-			"material" "TEST/COLOR014"
+			"material" "TEST/COLOR007"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -39914,7 +39914,7 @@ entity
 				"v" "620.788 -765.588 -2352"
 				"v" "620.788 -749.588 -2352"
 			}
-			"material" "TEST/COLOR014"
+			"material" "TEST/COLOR007"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -39932,7 +39932,7 @@ entity
 				"v" "636.788 -765.588 -2336"
 				"v" "636.788 -749.588 -2336"
 			}
-			"material" "TEST/COLOR014"
+			"material" "TEST/COLOR007"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -39950,7 +39950,7 @@ entity
 				"v" "620.788 -749.588 -2352"
 				"v" "636.788 -749.588 -2352"
 			}
-			"material" "TEST/COLOR014"
+			"material" "TEST/COLOR007"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -39968,7 +39968,7 @@ entity
 				"v" "620.788 -765.588 -2336"
 				"v" "636.788 -765.588 -2336"
 			}
-			"material" "TEST/COLOR014"
+			"material" "TEST/COLOR007"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"

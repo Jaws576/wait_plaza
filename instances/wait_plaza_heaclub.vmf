@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "197"
+	"editorbuild" "8872"
+	"mapversion" "198"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "197"
+	"mapversion" "198"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites_2fort"
@@ -15715,6 +15715,124 @@ world
 	}
 	solid
 	{
+		"id" "60282"
+		side
+		{
+			"id" "19446"
+			"plane" "(64 -64 368) (64 -64 64) (64 336 64)"
+			vertices_plus
+			{
+				"v" "64 -64 368"
+				"v" "64 -64 64"
+				"v" "64 336 64"
+				"v" "64 336 368"
+			}
+			"material" "BRICK/BRICKWALL005"
+			"uaxis" "[0 1 0 -128] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19445"
+			"plane" "(640 336 64) (640 -64 64) (640 -64 368)"
+			vertices_plus
+			{
+				"v" "640 336 64"
+				"v" "640 -64 64"
+				"v" "640 -64 368"
+				"v" "640 336 368"
+			}
+			"material" "LONDON/BRICK/LONDON_BRICKWALL_004"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19444"
+			"plane" "(640 -64 368) (640 -64 64) (64 -64 64)"
+			vertices_plus
+			{
+				"v" "640 -64 368"
+				"v" "640 -64 64"
+				"v" "64 -64 64"
+				"v" "64 -64 368"
+			}
+			"material" "BRICK/BRICKWALL005"
+			"uaxis" "[1 0 0 -128] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19443"
+			"plane" "(64 336 64) (64 -64 64) (640 -64 64)"
+			vertices_plus
+			{
+				"v" "64 336 64"
+				"v" "64 -64 64"
+				"v" "640 -64 64"
+				"v" "640 336 64"
+			}
+			"material" "LONDON/BRICK/LONDON_BRICKWALL_004"
+			"uaxis" "[1 0 0 -128] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19442"
+			"plane" "(64 -64 368) (64 336 368) (640 336 368)"
+			vertices_plus
+			{
+				"v" "64 -64 368"
+				"v" "64 336 368"
+				"v" "640 336 368"
+				"v" "640 -64 368"
+			}
+			"material" "TILE/FLOOR_TILE_001AB"
+			"uaxis" "[0.707107 0.707107 0 0] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 0] 0.25"
+			"rotation" "45"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19441"
+			"plane" "(64 336 368) (64 336 64) (640 336 64)"
+			vertices_plus
+			{
+				"v" "64 336 368"
+				"v" "64 336 64"
+				"v" "640 336 64"
+				"v" "640 336 368"
+			}
+			"material" "BRICK/BRICKWALL005"
+			"uaxis" "[1 0 0 -0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 202 199"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "16978"
 		side
 		{
@@ -16899,124 +17017,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "16998"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "60282"
-		side
-		{
-			"id" "19446"
-			"plane" "(64 -64 368) (64 -64 64) (64 336 64)"
-			vertices_plus
-			{
-				"v" "64 -64 368"
-				"v" "64 -64 64"
-				"v" "64 336 64"
-				"v" "64 336 368"
-			}
-			"material" "BRICK/BRICKWALL005"
-			"uaxis" "[0 1 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19445"
-			"plane" "(640 336 64) (640 -64 64) (640 -64 368)"
-			vertices_plus
-			{
-				"v" "640 336 64"
-				"v" "640 -64 64"
-				"v" "640 -64 368"
-				"v" "640 336 368"
-			}
-			"material" "LONDON/BRICK/LONDON_BRICKWALL_004"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19444"
-			"plane" "(640 -64 368) (640 -64 64) (64 -64 64)"
-			vertices_plus
-			{
-				"v" "640 -64 368"
-				"v" "640 -64 64"
-				"v" "64 -64 64"
-				"v" "64 -64 368"
-			}
-			"material" "BRICK/BRICKWALL005"
-			"uaxis" "[1 0 0 -128] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19443"
-			"plane" "(64 336 64) (64 -64 64) (640 -64 64)"
-			vertices_plus
-			{
-				"v" "64 336 64"
-				"v" "64 -64 64"
-				"v" "640 -64 64"
-				"v" "640 336 64"
-			}
-			"material" "LONDON/BRICK/LONDON_BRICKWALL_004"
-			"uaxis" "[1 0 0 -128] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19442"
-			"plane" "(64 -64 368) (64 336 368) (640 336 368)"
-			vertices_plus
-			{
-				"v" "64 -64 368"
-				"v" "64 336 368"
-				"v" "640 336 368"
-				"v" "640 -64 368"
-			}
-			"material" "TILE/FLOOR_TILE_001AB"
-			"uaxis" "[0.707107 0.707107 0 0] 0.25"
-			"vaxis" "[0.707107 -0.707107 0 0] 0.25"
-			"rotation" "45"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19441"
-			"plane" "(64 336 368) (64 336 64) (640 336 64)"
-			vertices_plus
-			{
-				"v" "64 336 368"
-				"v" "64 336 64"
-				"v" "640 336 64"
-				"v" "640 336 368"
-			}
-			"material" "BRICK/BRICKWALL005"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 202 199"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
